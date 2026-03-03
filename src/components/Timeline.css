@@ -1,0 +1,120 @@
+.timeline {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xl);
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 100px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(to bottom, var(--color-border-light), var(--color-accent), var(--color-border-light));
+}
+
+.timeline-item {
+  display: flex;
+  gap: var(--spacing-xl);
+  position: relative;
+}
+
+.timeline-item__marker {
+  flex-shrink: 0;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: flex-start;
+  padding-top: 8px;
+}
+
+.timeline-item__marker::before {
+  content: '';
+  position: absolute;
+  right: -6px;
+  top: 12px;
+  width: 12px;
+  height: 12px;
+  background-color: var(--color-accent);
+  border: 3px solid var(--color-bg);
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.timeline-item__year {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--color-accent);
+  font-family: var(--font-mono);
+  text-align: center;
+  line-height: 1.3;
+}
+
+.timeline-item__content {
+  flex: 1;
+  padding: var(--spacing-lg);
+  background-color: var(--color-bg-alt);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+}
+
+.timeline-item__title {
+  font-size: 1.0625rem;
+  font-weight: 600;
+  color: var(--color-text-primary);
+  margin-bottom: var(--spacing-xs);
+}
+
+.timeline-item__description {
+  font-size: 0.9375rem;
+  color: var(--color-text-secondary);
+  margin-bottom: var(--spacing-md);
+}
+
+.timeline-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-radius: var(--radius-sm);
+}
+
+.timeline-badge--education {
+  background-color: rgba(30, 58, 95, 0.1);
+  color: var(--color-accent);
+}
+
+.timeline-badge--thesis {
+  background-color: rgba(30, 58, 95, 0.15);
+  color: var(--color-accent);
+  font-weight: 600;
+}
+
+.timeline-badge--project {
+  background-color: rgba(30, 58, 95, 0.05);
+  color: var(--color-text-secondary);
+}
+
+@media (max-width: 640px) {
+  .timeline::before {
+    left: 60px;
+  }
+
+  .timeline-item__marker {
+    width: 60px;
+  }
+
+  .timeline-item {
+    gap: var(--spacing-md);
+  }
+
+  .timeline-item__year {
+    font-size: 0.625rem;
+  }
+}
