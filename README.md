@@ -1,6 +1,6 @@
 # Portfolio
 
-A professional portfolio website for Christian Caguicla, Computer Science student specializing in Digital Forensics.
+A professional portfolio website of Christian Caguicla, Computer Science student specializing in Digital Forensics.
 
 ## Built With
 
