@@ -66,6 +66,24 @@
   margin-bottom: var(--spacing-lg);
 }
 
+.typewriter {
+  color: var(--color-accent);
+}
+
+.cursor {
+  display: inline-block;
+  width: 2px;
+  height: 1.2em;
+  background-color: var(--color-accent);
+  margin-left: 2px;
+  vertical-align: middle;
+  transition: opacity 0.1s ease;
+}
+
+.cursor::after {
+  content: '';
+}
+
 .hero__summary {
   font-size: 1.0625rem;
   line-height: 1.75;

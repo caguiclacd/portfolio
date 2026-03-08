@@ -1,4 +1,16 @@
 import './About.css';
+import useCountUp from '../hooks/useCountUp';
+
+const StatCounter = ({ end, suffix = '', label, duration = 2000 }) => {
+  const { count, ref } = useCountUp(end, duration);
+
+  return (
+    <div className="stat-counter" ref={ref}>
+      <span className="stat-counter__number">{count}{suffix}</span>
+      <span className="stat-counter__label">{label}</span>
+    </div>
+  );
+};
 
 const About = () => {
   const infoCards = [
@@ -96,6 +108,12 @@ const About = () => {
                 </div>
               </div>
             ))}
+          </div>
+
+          <div className="about__stats reveal">
+            <StatCounter end={3} suffix="+" label="Years Coding" />
+            <StatCounter end={10} suffix="+" label="Projects Built" />
+            <StatCounter end={5} suffix="" label="Frameworks Used" />
           </div>
         </div>
       </div>

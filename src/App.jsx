@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react';
+import { ThemeProvider } from './context/ThemeContext';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
@@ -10,6 +11,7 @@ import Timeline from './components/Timeline';
 import Leadership from './components/Leadership';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import ScrollProgress from './components/ScrollProgress';
 import './App.css';
 
 function App() {
@@ -44,21 +46,24 @@ function App() {
   }, []);
 
   return (
-    <div className="app">
-      <Navbar />
-      <main>
-        <Hero />
-        <About />
-        <CoreCompetencies />
-        <TechStack />
-        <Projects />
-        <SecurityExperience />
-        <Timeline />
-        <Leadership />
-        <Contact />
-      </main>
-      <Footer />
-    </div>
+    <ThemeProvider>
+      <div className="app">
+        <ScrollProgress />
+        <Navbar />
+        <main>
+          <Hero />
+          <About />
+          <CoreCompetencies />
+          <TechStack />
+          <Projects />
+          <SecurityExperience />
+          <Timeline />
+          <Leadership />
+          <Contact />
+        </main>
+        <Footer />
+      </div>
+    </ThemeProvider>
   );
 }
 

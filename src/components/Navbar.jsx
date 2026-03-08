@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import './Navbar.css';
+import ThemeToggle from './ThemeToggle';
 
 const navItems = [
   { label: 'About', href: '#about' },
@@ -69,6 +70,9 @@ const Navbar = () => {
               </a>
             </li>
           ))}
+          <li className="navbar__theme-item">
+            <ThemeToggle />
+          </li>
         </ul>
       </div>
     </nav>

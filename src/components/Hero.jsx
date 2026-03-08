@@ -1,8 +1,12 @@
 import './Hero.css';
 import profilePic from '../assets/caguiclacd_profilepic.jpg';
 import resumePdf from '../assets/caguiclacd_resume.pdf';
+import useTypewriter from '../hooks/useTypewriter';
 
 const Hero = () => {
+  const roles = ['Full Stack Developer', 'Web Developer', 'React Developer'];
+  const { text, blink } = useTypewriter(roles, 100, 2000);
+
   return (
     <section id="hero" className="hero">
       <div className="hero__background">
@@ -17,7 +21,7 @@ const Hero = () => {
               Christian Caguicla
             </h1>
             <p className="hero__subtitle">
-              Computer Science Student | Full Stack Developer
+              Computer Science Student | <span className="typewriter">{text}</span><span className="cursor" style={{ opacity: blink ? 1 : 0 }}></span>
             </p>
             <p className="hero__summary">
               Focused on building modern web applications, developing scalable backend solutions,
