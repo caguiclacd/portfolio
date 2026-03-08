@@ -17,12 +17,12 @@ const Hero = () => {
               Christian Caguicla
             </h1>
             <p className="hero__subtitle">
-              Computer Science Student | Digital Forensics
+              Computer Science Student | Full Stack Developer
             </p>
             <p className="hero__summary">
-              Focused on building secure systems, developing intelligent tools for digital investigation,
-              and contributing to robust IT environments. Seeking opportunities to apply technical
-              expertise in security-focused roles and IT internship positions.
+              Focused on building modern web applications, developing scalable backend solutions,
+              and creating intuitive user experiences. Seeking opportunities to apply technical
+              expertise in software development roles and IT internship positions.
             </p>
             <div className="hero__actions">
               <a href="#projects" className="btn btn--primary">

@@ -16,15 +16,15 @@ const Timeline = () => {
     },
     {
       year: '2025',
-      title: 'Forensics Specialization',
-      description: 'Advanced coursework in digital forensics, malware analysis, and incident response',
+      title: 'Full Stack Development Focus',
+      description: 'Advanced coursework in web development, backend systems, and software engineering',
       type: 'education'
     },
     {
       year: '2025',
-      title: 'Phishing URL Detection Plugin',
-      description: 'Developed Autopsy plugin with ML-based phishing detection using feature extraction and Random Forest classification',
-      type: 'thesis'
+      title: 'Taglay Web Application',
+      description: 'Built full stack web application with React, MongoDB, and CI/CD deployment pipeline',
+      type: 'project'
     },
     {
       year: '2026',

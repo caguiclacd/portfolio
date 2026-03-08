@@ -11,7 +11,7 @@ const Footer = () => {
             &copy; {year} Christian Caguicla. Built with React and Vite.
           </p>
           <p className="footer__subtext">
-            Computer Science Student | Digital Forensics
+            Computer Science Student | Full Stack Developer
           </p>
         </div>
       </div>

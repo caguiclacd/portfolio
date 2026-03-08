@@ -3,25 +3,25 @@ import './SecurityExperience.css';
 const SecurityExperience = () => {
   const experiences = [
     {
-      title: 'Mobile Forensics & System Analysis',
+      title: 'Full Stack Web Development',
       icon: 'mobile',
-      description: 'Hands-on investigation of Android devices using ADB acquisition methods and forensic tooling.',
+      description: 'End-to-end development of modern web applications with focus on performance, scalability, and user experience.',
       capabilities: [
-        'ADB acquisition for Android device data extraction',
-        'System hooking investigation for behavioral analysis',
-        'Application database and log extraction techniques',
-        'Forensic artifact preservation and chain of custody documentation'
+        'Building responsive React applications with component-based architecture',
+        'Designing and implementing REST APIs with proper error handling',
+        'Database schema design and query optimization for MongoDB',
+        'State management and data flow patterns for complex applications'
       ]
     },
     {
-      title: 'File Metadata Analysis & Recovery',
+      title: 'Development Workflow & Deployment',
       icon: 'file',
-      description: 'Systematic recovery and analysis of deleted files and metadata artifacts for timeline reconstruction.',
+      description: 'Implementing professional development practices with automated testing, version control, and continuous deployment.',
       capabilities: [
-        'Deleted file recovery using file carving techniques',
-        'Metadata extraction from document, image, and system files',
-        'Timeline reconstruction from file system artifacts',
-        'Reproducible forensic reporting with proper documentation standards'
+        'Git-based collaborative workflows with branching strategies',
+        'CI/CD pipeline configuration using GitHub Actions',
+        'Automated deployment to Vercel with environment management',
+        'Code testing, debugging, and performance optimization'
       ]
     }
   ];
@@ -30,8 +30,8 @@ const SecurityExperience = () => {
     <section id="experience" className="section section--alt">
       <div className="container">
         <header className="section-header reveal">
-          <h2 className="section-title">Security & Forensics Experience</h2>
-          <p className="section-subtitle">Practical application of investigative methodologies and forensic analysis techniques</p>
+          <h2 className="section-title">Development Experience</h2>
+          <p className="section-subtitle">Practical application of software engineering principles and modern development practices</p>
         </header>
 
         <div className="security-exp-list">

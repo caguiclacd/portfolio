@@ -3,14 +3,15 @@ import './Projects.css';
 const Projects = () => {
   const projects = [
     {
-      title: 'Phishing URL Detection Autopsy Plugin',
-      summary: 'A forensic plugin for Autopsy that automatically identifies and classifies suspicious URLs within digital artifacts. The system extracts URL features and applies a trained machine learning model to detect potential phishing indicators.',
-      tags: ['Python', 'Autopsy API', 'Scikit-learn', 'Optuna', 'Random Forest'],
-      githubLink: 'https://github.com/caguiclacd',
-      wipNotice: 'GitHub repo currently work in progress.',
+      title: 'Taglay: Full Stack Web Application',
+      summary: 'A complete web application with responsive architecture, demonstrating modern frontend practices and backend integration. Features include data persistence, user authentication patterns, and automated deployment workflows.',
+      tags: ['React', 'Vite', 'MongoDB', 'Vercel', 'CI/CD'],
+      githubLink: 'https://github.com/caguiclacd/taglay',
       contributions: [
-        'Implemented feature extraction logic for URL pattern analysis (length, entropy, subdomain counts)',
-        'Tuned Random Forest classifier using Optuna hyperparameter optimization, achieving 92% accuracy'
+        'Architected component structure with reusable UI patterns and state management',
+        'Implemented MongoDB integration with proper schema design and query optimization',
+        'Built responsive layouts using CSS Grid and custom properties for theming',
+        'Configured CI/CD pipeline via GitHub Actions for automated testing and Vercel deployment'
       ]
     },
     {
@@ -26,15 +27,15 @@ const Projects = () => {
       ]
     },
     {
-      title: 'Full Stack React Web Application',
-      summary: 'A complete web application with responsive architecture, demonstrating modern frontend practices and backend integration. Features include data persistence, user authentication patterns, and automated deployment workflows.',
-      tags: ['React', 'Vite', 'MongoDB', 'Vercel', 'CI/CD'],
-      githubLink: 'https://github.com/caguiclacd/taglay',
+      title: 'Personal Portfolio Website',
+      summary: 'A modern, responsive portfolio website showcasing technical projects and skills. Built with React and Vite, featuring smooth scroll animations, component-based architecture, and optimized performance.',
+      tags: ['React', 'Vite', 'CSS3', 'Intersection Observer', 'Responsive Design'],
+      githubLink: 'https://github.com/caguiclacd',
       contributions: [
-        'Architected component structure with reusable UI patterns and state management',
-        'Implemented MongoDB integration with proper schema design and query optimization',
-        'Built responsive layouts using CSS Grid and custom properties for theming',
-        'Configured CI/CD pipeline via GitHub Actions for automated testing and Vercel deployment'
+        'Implemented Intersection Observer API for scroll-based reveal animations',
+        'Created reusable component architecture with consistent styling patterns',
+        'Designed responsive layouts with mobile-first CSS Grid and Flexbox',
+        'Optimized assets and lazy loading for improved Core Web Vitals scores'
       ]
     }
   ];
@@ -44,7 +45,7 @@ const Projects = () => {
       <div className="container">
         <header className="section-header reveal">
           <h2 className="section-title">Featured Projects</h2>
-          <p className="section-subtitle">Technical implementations demonstrating problem-solving and engineering discipline</p>
+          <p className="section-subtitle">Web applications and software solutions demonstrating engineering capability</p>
         </header>
 
         <div className="projects-list">

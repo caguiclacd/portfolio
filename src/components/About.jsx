@@ -20,7 +20,7 @@ const About = () => {
     {
       icon: 'focus',
       label: 'Focus Areas',
-      value: 'Digital Forensics & Security'
+      value: 'Full Stack Development & Web Engineering'
     }
   ];
 
@@ -35,26 +35,27 @@ const About = () => {
         <div className="about__content">
           <div className="about__narrative reveal">
             <p>
-              I am a Computer Science student specializing in Digital Forensics, with a strong foundation
-              in secure systems analysis and investigative methodologies. My academic journey has been
-              defined by a focus on understanding how digital artifacts are created, preserved, and
-              analyzed within various computing environments.
+              I am a Computer Science student specializing in Full Stack Development, with a strong foundation
+              in modern web technologies and software engineering principles. My academic journey has been
+              defined by a focus on building scalable applications and creating intuitive user experiences
+              across the entire development stack.
             </p>
             <p>
-              My interest in security emerged from recognizing the critical importance of forensic readiness
-              in modern IT infrastructure. I have pursued coursework and independent study in areas ranging
-              from file system analysis to network artifact recovery, developing both technical proficiency
-              and analytical discipline required for thorough investigations.
+              My interest in software development emerged from recognizing the power of technology to solve
+              real-world problems. I have pursued coursework and independent study in areas ranging from
+              frontend frameworks to backend architecture, developing both technical proficiency and
+              the analytical discipline required for building production-quality applications.
             </p>
             <p>
-              Beyond technical knowledge, I cultivate the systematic thinking and attention to detail that
-              forensic work demands. Whether analyzing malware behavior patterns or reconstructing timeline
-              events from system logs, I prioritize methodical approaches that produce reproducible results.
+              Beyond technical knowledge, I cultivate the problem-solving mindset and attention to detail that
+              professional development demands. Whether designing responsive user interfaces or architecting
+              efficient database schemas, I prioritize clean code and maintainable solutions that deliver
+              lasting value.
             </p>
             <p>
-              I am seeking internship opportunities where I can contribute to IT operations while continuing
-              to develop my expertise in security tools, incident response procedures, and forensic analysis
-              techniques within professional environments.
+              I am seeking internship opportunities where I can contribute to meaningful projects while continuing
+              to develop my expertise in web frameworks, backend systems, and modern development practices
+              within professional environments.
             </p>
           </div>
 

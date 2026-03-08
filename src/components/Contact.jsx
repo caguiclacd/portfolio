@@ -49,8 +49,8 @@ const Contact = () => {
           <div className="contact-message">
             <p>
               I am currently seeking IT internship opportunities where I can apply my technical skills
-              in security-focused roles. If you are looking for a motivated junior engineer with
-              a foundation in digital forensics and secure systems, I would welcome the opportunity
+              in software development roles. If you are looking for a motivated junior engineer with
+              a foundation in full stack development and web technologies, I would welcome the opportunity
               to connect.
             </p>
           </div>

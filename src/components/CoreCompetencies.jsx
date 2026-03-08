@@ -3,33 +3,33 @@ import './CoreCompetencies.css';
 const CoreCompetencies = () => {
   const competencies = [
     {
-      title: 'Security & Forensics',
+      title: 'Web Development',
       items: [
-        'Autopsy plugin development and integration',
-        'Malware artifact extraction and analysis',
-        'File system timeline reconstruction',
-        'Android ADB acquisition techniques',
-        'Log trace investigation methodologies'
+        'React functional components and hooks',
+        'Responsive design with CSS Grid and Flexbox',
+        'State management and data flow patterns',
+        'Progressive Web App (PWA) implementation',
+        'Cross-browser compatibility and optimization'
       ]
     },
     {
-      title: 'Software Development',
+      title: 'Backend & Systems',
       items: [
-        'React component architecture',
-        'Vite build tooling and configuration',
-        'MongoDB schema design and queries',
-        'REST API architecture patterns',
-        'CI/CD pipeline automation'
+        'MongoDB schema design and aggregation queries',
+        'REST API architecture and endpoint design',
+        'Node.js server-side development',
+        'Authentication and session management',
+        'Database indexing and performance optimization'
       ]
     },
     {
-      title: 'IT & Systems',
+      title: 'Development Practices',
       items: [
-        'Operating systems internals',
-        'Network fundamentals and protocols',
-        'Process and memory analysis',
-        'System administration concepts',
-        'Incident response procedures'
+        'Git version control and collaborative workflows',
+        'CI/CD pipeline automation with GitHub Actions',
+        'Code testing and debugging methodologies',
+        'API integration and third-party services',
+        'Deployment with Vercel and cloud platforms'
       ]
     }
   ];
@@ -39,7 +39,7 @@ const CoreCompetencies = () => {
       <div className="container">
         <header className="section-header reveal">
           <h2 className="section-title">Core Competencies</h2>
-          <p className="section-subtitle">Technical capabilities across security, development, and systems administration</p>
+          <p className="section-subtitle">Technical capabilities across frontend, backend, and development workflows</p>
         </header>
 
         <div className="competencies-grid reveal-group">

@@ -4,15 +4,15 @@ const TechStack = () => {
   const categories = [
     {
       name: 'Programming & Scripting',
-      items: ['Python', 'JavaScript', 'SQL', 'HTML/CSS']
+      items: ['JavaScript', 'Python', 'SQL', 'HTML/CSS']
     },
     {
-      name: 'Web & Backend',
-      items: ['React', 'Vite', 'MongoDB', 'Vercel']
+      name: 'Frontend Frameworks',
+      items: ['React', 'Vite', 'JSX', 'CSS Modules']
     },
     {
-      name: 'Security & Forensics',
-      items: ['Autopsy', 'Incident Response', 'Malware Analysis', 'Network Forensics']
+      name: 'Backend & Database',
+      items: ['MongoDB', 'Node.js', 'REST APIs', 'Authentication']
     },
     {
       name: 'Developer Tools',
@@ -25,7 +25,7 @@ const TechStack = () => {
       <div className="container">
         <header className="section-header reveal">
           <h2 className="section-title">Technical Stack</h2>
-          <p className="section-subtitle">Tools and technologies used across development and forensic work</p>
+          <p className="section-subtitle">Tools and technologies used across full stack development</p>
         </header>
 
         <div className="techstack-grid reveal-group">
